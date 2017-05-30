@@ -5,17 +5,14 @@
 h4 {
   margin-top: 25px;
 }
-.row {
-  margin-bottom: 20px;
-}
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
+
 [class*="col-"] {
-  padding-top: 15px;
-  padding-bottom: 15px;
   text-align: center;
+}
+
+article {
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 hr {
@@ -25,8 +22,12 @@ hr {
   border-top-color: #7d97ad;
 }
 
-img{
+img {
   width: 100%;
+}
+
+.article-img {
+  box-shadow:5px 5px 5px #999;
 }
 
 #logo-img {
@@ -53,5 +54,12 @@ a {
 }
 
 #subtitle {
+  margin-top: 40px;
   color: #7d97ad;
+  text-align: left;
+}
+
+#title {
+  text-transform: uppercase;
+  font-family: sans-serif;
 }
